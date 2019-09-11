@@ -13,11 +13,49 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
-body{
-    background-color: wheat;
+#features{
+    text-align: center;
 }
-
+body{
+    background-color: whitesmoke;
+}
+blockquote{
+	width: 500px;
+	border: 1px solid black;
+	padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.fa-facebook {
+    display: inline-block;
+    border-radius: 10px;
+    background: #3B5998;
+    color: white;
+    block-size: 20px 20px;
+  }
+  
+  .fa-twitter {
+    display: inline-block;
+    border-radius: 10px;
+    background: #55ACEE;
+    color: white;
+    
+  }
+  .fa-instagram {
+    display: inline-block;
+    border-radius: 10px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    
+  }
+  .fa-whatsapp {
+    display: inline-block;
+    border-radius: 10px;
+    background: #33cc66;
+    color: white;
+    
+  }
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -57,11 +95,12 @@ body{
     width: 100%;
     height:720px;
 }
-#slide1 h1,h2,h3,h4{
+/*
+.slide h1,h2,h3,h4{
     text-emphasis:bold;
     color: wheat;
 }
-
+*/
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -85,6 +124,10 @@ body{
         margin-top: 50px;
     
     }
+    
+    .carousel-caption h1,h2,h3,h4,h5{
+        font-size: 12px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -96,8 +139,24 @@ body{
         margin-top: 50px;
     
     }
+    ..carousel-caption h1,h2,h3,h4,h5{
+        font-size: 15px;
+    }
+}
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
 	
+}
+
+#bigCallout{
+    margin-top: 30px;
+    
+}
+.well{
+    background-color: aliceblue;
+}
+footer{
+    background-color:thistle;
+}
