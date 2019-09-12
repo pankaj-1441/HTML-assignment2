@@ -60,6 +60,16 @@ blockquote{
    Typography
    -------------------------------------- */
 
+.panel img{
+    width: 100%;
+    height: 260px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.panel{
+    height: 500px;
+}
 
 
 /* --------------------------------------
