@@ -115,28 +115,28 @@
 		
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
-			  <div class="item active images">
+			  <div class="item active">
 				<img src="img/27.jpg" alt="Cricket" >
-				<div class="slide carousel-caption" >
-						<h2><strong>SPARDHA'2019</strong></h2>
-						<h3><strong>September 10-12, 2019</strong></h3>
-						<h4><strong>India's largest Games and sports festival</strong></h4>
+				<div class="carousel-caption" >
+						<h2 class="hh2"><strong>SPARDHA'2019</strong></h2>
+						<h3 class="hh3"><strong>September 10-12, 2019</strong></h3>
+						<h4 class="hh4"><strong>India's largest Games and sports festival</strong></h4>
 					</div><!-- end carousel-caption-->
 			  </div>
 		
-			  <div class="item image">
+			  <div class="item">
 				<img  src="img/ath.jpg" alt="Atheletics" >
-				<div class="slide carousel-caption" >
-						<h2><strong>Registrations open now...</strong></h2>
-						<h4><strong>Register now into the 35th edition of the annual sports festival of IIT(BHU), Varanasi.</strong></h4>
+				<div class="carousel-caption" >
+						<h2 class="hh2"><strong>Registrations open now...</strong></h2>
+						<h4 class="hh4"><strong>Register now into the 35th edition of the annual sports festival of IIT(BHU), Varanasi.</strong></h4>
 					</div><!-- end carousel-caption-->
 			  </div>
 			
 			  <div class="item">
-				<img src="img/31.jpg" alt="Swimming" >
-				<div class="slide carousel-caption">
-						<h1><strong>The Talk Of The Town</strong></h1>
-						<h4><strong>Each year thousands of participants at Spardha put their hard work to test in a vast array of sports.</strong></h4>
+				<img src="img/31.jpg" alt="Football" >
+				<div class="carousel-caption">
+						<h2 class="hh2"><strong>The Talk Of The Town</strong></h2>
+						<h4 class="hh4"><strong>Each year thousands of participants at Spardha put their hard work to test in a vast array of sports.</strong></h4>
 					</div><!-- end carousel-caption-->
 			  </div>
 			</div>
@@ -163,7 +163,81 @@
 										
 										<p class="lead" style="font-size: 20px;">For starters, 2019 will witness the 35th edition of Spardha, a festival which has grown from strength to strength ever since its inception. After all these successful editions, Spardha, today stands as the largest inter-collegiate sporting event of India.</p>
 										<p style="font-size: 15px;">NOTE: Individual registrations are not entertained. Only one registration is allowed per college.</p>
-										<a href="#" class="btn btn-large btn-primary" id="alertMe">Click here to register now</a>
+										<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click here to Register now</a>
+										<div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal">&times;</button>
+				
+				<h2 class="modal-title">Registration Portal</h2>
+			</div><!-- end modal-header -->
+			<div class="modal-body">
+				<div class="signing">
+				<h4>Already signed up? Click <a href="#">here</a> to login.</h4>
+				</div>
+				<div class="note">
+						<h5 style="color: cornflowerblue;">NOTE: Individual registrations are not entertained. Only one registration is allowed per college.</h4>
+			    </div>
+				
+				
+				<hr>
+				
+				<p><small class="text-muted">PS. This form registers you for the event. Make sure you enter the details correctly.</small></p>
+				
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputName">Name</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputName" placeholder="Name" type="text">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+						</div>
+					</div>
+					<div class="form-group">
+							<label class="col-lg-2 control-label" for="inputpassword">Create Password</label>
+							<div class="col-lg-10">
+								<input class="form-control" id="password" placeholder="New Password" type="password">
+							</div>
+						</div>
+
+					<div class="form-group">
+							<label class="col-lg-2 control-label" for="inputEvent">Event</label>
+							<div class="col-lg-10">
+								<input class="form-control" id="inputEvent" placeholder="Event Name" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputcollege">College Name</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputcollege" placeholder="College Name" type="text">
+								</div>
+							</div>
+
+						
+
+					
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" id="inputMessage" placeholder="Message" rows="2"></textarea>
+							<button class="btn btn-success pull-right" type="submit">Send!</button>
+						</div>
+					</div>
+				</form>
+			</div><!-- end modal-body -->
+			
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+			</div><!-- end modal-footer -->
+		</div><!-- end modal-content -->
+	</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
 										<a href="#" class="btn btn-large btn-link">or if already registered. CLICK to login</a>
 									</div><!-- end well -->
 									<!-- Visible only on small devices -->
@@ -279,6 +353,7 @@
 					
 					
 				</div><!-- end container -->
+				
 				
 				
 				<footer>
